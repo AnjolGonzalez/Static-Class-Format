@@ -1,6 +1,6 @@
 package com.pluralsight;
 
-public class StaticClasses {
+public class NameFormatter {
 
     public static String prefix;
     public static String firstName;
@@ -8,7 +8,7 @@ public class StaticClasses {
     public static String lastName;
     public static String suffix;
 
-    public StaticClasses(String prefix, String firstName, String middleName, String lastName, String suffix) {
+    public NameFormatter(String prefix, String firstName, String middleName, String lastName, String suffix) {
         this.prefix = prefix;
         this.firstName = firstName;
         this.middleName = middleName;
